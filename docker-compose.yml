@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  streanlitstarter:
+    image: streanlitstarter
+    build:
+      context: .
+      dockerfile: ./Dockerfile
