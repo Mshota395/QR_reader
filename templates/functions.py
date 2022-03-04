@@ -51,7 +51,7 @@ def function_qrdec_pyzbar(img_bgr):
     
     # QRコードデコード
     value = decode(img_bgr)
-    print(value)
+    # print(value)
 
     if value:
         # qr_data_all = []

@@ -4,3 +4,8 @@ pandas
 requests
 numpy
 Opencv
+typing
+re
+PIL
+datetime
+pyzbar

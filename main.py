@@ -72,7 +72,7 @@ def main():
                 else:
                     file_names = [ upload_file[i].name for i in range(len(upload_file))]
                     # df_data_list = pd.DataFrame(np.random.randn(len(file_names), 2), columns=["機種名", "ロット"], index=file_names)
-                    print(type(qr_data_all))
+                    # print(type(qr_data_all))
                     df_data_list = pd.DataFrame(qr_data_all, columns=["機種名", "ロット"], index=file_names)
                     st.dataframe(df_data_list)
 
